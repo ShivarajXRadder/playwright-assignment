@@ -1,0 +1,23 @@
+{
+    "name": "playwright-enterprise-framework",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "report": "playwright show-report",
+        "allure:generate": "allure generate ./allure-results --clean",
+        "allure:open": "allure open"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.54.1",
+        "@types/node": "^25.6.0",
+        "allure-playwright": "^3.7.2",
+        "dotenv": "^16.4.5",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "pino": "^9.3.2",
+        "pino-pretty": "^11.2.2"
+    }
+}
