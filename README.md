@@ -93,18 +93,6 @@ npx playwright test tests/positiveLogin.spec.ts
 npx playwright test --headed
 
 ---
-## Reports
-
-## Open HTML Report
-npm run report
-
-## Generating Allure report
-npm run allure:generate
-
-## Open Allure report
-npm runallure:open
-
----
 
 ## Multi-Browser Execution
 
